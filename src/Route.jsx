@@ -5,8 +5,8 @@ import {useNavigate, useRoutes} from 'react-router-dom'
 import DashBoard from "./component/dashboard/DashBoard";
 import Profile from "./component/user/Profile";
 
-import Login from "./component/authentication/logIn.jsx";
-import Signup from "./component/authentication/signUp.jsx";
+import Login from "./component/authentication/Login";
+import Signup from "./component/authentication/Signup";
 
 //Auth Context
 import { useAuth } from './AuthContext.jsx';
