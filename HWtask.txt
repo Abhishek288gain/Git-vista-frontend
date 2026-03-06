@@ -1,0 +1,3 @@
+1. Dispay a list of repos whick is star by curUsers and In profile make a section of star repo so that they can see thier stars repo.
+2. In profile.jsx, create functionality when we click follow btn then this user add to  followed user list of curUser. we can also create logic if curUser
+   open thier then follow btn will hide 
