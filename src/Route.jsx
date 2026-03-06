@@ -4,9 +4,9 @@ import {useNavigate, useRoutes} from 'react-router-dom'
 //pages lists
 import DashBoard from "./component/dashboard/DashBoard";
 import Profile from "./component/user/Profile";
-import Signup from "./component/authentication/Signup.jsx";
 
-import LogIn from "./component/authentication/logIn";
+import Login from "./component/authentication/logIn.jsx";
+import Signup from "./component/authentication/signUp.jsx";
 
 //Auth Context
 import { useAuth } from './AuthContext.jsx';
@@ -41,7 +41,7 @@ const ProjectRoutes = () => {
         },
         {
             path: "/auth",
-            element:<LogIn/>
+            element:<Login/>
         },
         {
             path: "/signup",
