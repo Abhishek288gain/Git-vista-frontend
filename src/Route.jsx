@@ -4,7 +4,7 @@ import {useNavigate, useRoutes} from 'react-router-dom'
 //pages lists
 import DashBoard from "./component/dashboard/DashBoard";
 import Profile from "./component/user/Profile";
-
+//new
 import Login from "./component/authentication/Login";
 import Signup from "./component/authentication/Signup";
 
